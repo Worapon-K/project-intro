@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สร้างบัญชี</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"></div>
+  <header class="header">
+    <div class="brand">
+      <div class="logo" aria-label="ตราสัญลักษณ์จำลอง">
+                <div class="img_add">
+            <img src="image/logo_kmutnb.png" alt="">
+        </div>
+      </div>
+      <div>
+        <b>King Mongkut's University of Technology North Bangkok</b>
+        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">หน้าหลัก</a>
+      <a href="rounds.html">รอบรับสมัคร</a>
+      <a href="summary.html">สถานะการสมัคร</a>
+    </nav>
+  </header>
+
+  <main class="container page">
+    <div class="card auth">
+      <h2>สร้างบัญชีผู้สมัคร</h2>
+      <p class="sub">สำหรับผู้สมัครใหม่ กรอกข้อมูลเพื่อสร้างบัญชี</p>
+      
+      <form class="form" action="rounds.html">
+        <div class="field">
+          <label>เลขบัตรประชาชน / Passport</label>
+          <input required placeholder="กรอกหมายเลข">
+        </div>
+        <div class="field">
+          <label>อีเมล</label>
+          <input required type="email" placeholder="example@email.com">
+        </div>
+        <div class="field">
+          <label>เบอร์โทรศัพท์</label>
+          <input required placeholder="08x-xxx-xxxx">
+        </div>
+        <div class="field">
+          <label>รหัสผ่าน</label>
+          <input required type="password" placeholder="อย่างน้อย 8 ตัวอักษร">
+        </div>
+        <div class="field">
+          <label>ยืนยันรหัสผ่าน</label>
+          <input required type="password">
+        </div>
+        <button class="btn">สร้างบัญชีและเข้าสู่ระบบ</button>
+      </form>
+
+      <div class="divider"></div>
+      <div class="center hint">
+        มีบัญชีอยู่แล้ว? <a href="index.html" style="color: var(--red); font-weight: 700;">เข้าสู่ระบบ</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok
+  </footer>
+</body>
+</html>
