@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>กรอกข้อมูลการสมัคร | KMUTNB Admission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"></div>
+  <header class="header">
+    <a class="brand" href="index.html">
+      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+      <div>
+        <b>King Mongkut's University of Technology North Bangkok</b>
+        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+      </div>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
+    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html" class="active">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
+  </header>
+
+  <main class="container page">
+    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / <a href="rounds.html">รอบรับสมัคร</a> / ใบสมัคร</div>
+    <div class="eyebrow">APPLICATION FORM</div>
+    <h1>กรอกข้อมูลการสมัคร</h1>
+    <div class="stepper"><div class="step active">1 ข้อมูลส่วนตัว</div><div class="step">2 การศึกษา</div><div class="step">3 เลือกหลักสูตร</div><div class="step">4 อัปโหลดเอกสาร</div><div class="step">5 ตรวจสอบ</div></div>
+    <div class="apply-grid">
+      <section class="card">
+        <form class="form" action="education.html">
+          <h3>ข้อมูลส่วนบุคคล</h3><div class="field-row c3"><div class="field"><label class="req" for="f10">คำนำหน้า</label><select id="f10" name="f10" required><option>นาย</option><option>นางสาว</option><option>นาง</option><option>ด.ช.</option><option>ด.ญ.</option></select></div><div class="field"><label class="req" for="f11">ชื่อ</label><input id="f11" name="f11" type="text" required ></div><div class="field"><label class="req" for="f12">นามสกุล</label><input id="f12" name="f12" type="text" required ></div></div><div class="field-row c2"><div class="field"><label class="" for="f13">ชื่อ (ภาษาอังกฤษ)</label><input id="f13" name="f13" type="text" placeholder="First name" ></div><div class="field"><label class="" for="f14">นามสกุล (ภาษาอังกฤษ)</label><input id="f14" name="f14" type="text" placeholder="Last name" ></div></div><div class="field-row c3"><div class="field"><label class="req" for="f15">วันเกิด</label><input id="f15" name="f15" type="date" required ></div><div class="field"><label class="req" for="f16">เลขบัตรประชาชน</label><input id="f16" name="f16" type="text" placeholder="x-xxxx-xxxxx-xx-x" required ></div><div class="field"><label class="" for="f17">สัญชาติ</label><input id="f17" name="f17" type="text" value="ไทย" ></div></div><div class="field-row c2"><div class="field"><label class="req" for="f18">อีเมล</label><input id="f18" name="f18" type="email" placeholder="example@email.com" required ></div><div class="field"><label class="req" for="f19">เบอร์โทรศัพท์</label><input id="f19" name="f19" type="tel" placeholder="08x-xxx-xxxx" required ></div></div><h3>ที่อยู่ปัจจุบัน</h3><div class="field"><label class="req" for="f20">ที่อยู่</label><textarea id="f20" name="f20" placeholder="บ้านเลขที่ หมู่ ซอย ถนน" required></textarea></div><div class="field-row c4"><div class="field"><label class="" for="f21">ตำบล/แขวง</label><input id="f21" name="f21" type="text" ></div><div class="field"><label class="req" for="f22">อำเภอ/เขต</label><input id="f22" name="f22" type="text" required ></div><div class="field"><label class="req" for="f23">จังหวัด</label><input id="f23" name="f23" type="text" required ></div><div class="field"><label class="req" for="f24">รหัสไปรษณีย์</label><input id="f24" name="f24" type="text" required ></div></div><h3>ผู้ติดต่อฉุกเฉิน</h3><div class="field-row c3"><div class="field"><label class="" for="f25">ชื่อ-นามสกุล</label><input id="f25" name="f25" type="text" ></div><div class="field"><label class="" for="f26">ความสัมพันธ์</label><select id="f26" name="f26"><option>บิดา</option><option>มารดา</option><option>ผู้ปกครอง</option><option>อื่นๆ</option></select></div><div class="field"><label class="" for="f27">เบอร์โทรศัพท์</label><input id="f27" name="f27" type="tel" ></div></div>
+          <div class="form-actions"><a class="btn ghost" href="rounds.html">← เปลี่ยนรอบสมัคร</a><button class="btn" type="submit">บันทึกและไปขั้นตอนถัดไป →</button></div>
+        </form>
+      </section>
+      <aside class="card side">
+        <span class="tag">รอบที่เลือก</span>
+        <h3>โควตาเรียนดี</h3>
+        <p class="hint">ปีการศึกษา 2570</p>
+        <div class="progress"><i style="width:10%"></i></div>
+        <p class="hint">ขั้นตอนที่ 1 จาก 5</p>
+        <div class="summary-row"><span>ผู้สมัครแล้ว</span><span>2,904 คน</span></div>
+        <div class="summary-row"><span>ปิดรับสมัคร</span><span>15 ม.ค. 2570</span></div>
+        <div class="summary-row"><span>ค่าสมัคร</span><span>300 บาท</span></div>
+        <div class="summary-row"><span>สถานะ</span><span class="badge">เปิดรับ</span></div>
+        <div class="notice">กรุณาตรวจสอบข้อมูลทุกช่องให้ถูกต้องก่อนยืนยันการสมัคร</div>
+        <a class="btn secondary block" href="rounds.html">เปลี่ยนรอบสมัคร</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h4>King Mongkut's University of Technology North Bangkok</h4>
+        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+      </div>
+      <div>
+        <h4>การสมัคร</h4>
+        <a href="rounds.html">รอบรับสมัคร</a>
+        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="summary.html">สถานะการสมัคร</a>
+      </div>
+      <div>
+        <h4>ข่าวสาร</h4>
+        <a href="announcements.html">ประกาศทั้งหมด</a>
+        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+        <a href="faq.html">คำถามที่พบบ่อย</a>
+      </div>
+      <div>
+        <h4>บัญชี</h4>
+        <a href="login.html">เข้าสู่ระบบ</a>
+        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+        <a href="profile.html">บัญชีของฉัน</a>
+        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      </div>
+    </div>
+    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
+  </footer>
+</body>
+</html>

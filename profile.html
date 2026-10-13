@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>บัญชีของฉัน | KMUTNB Admission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"></div>
+  <header class="header">
+    <a class="brand" href="index.html">
+      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+      <div>
+        <b>King Mongkut's University of Technology North Bangkok</b>
+        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+      </div>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
+    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
+  </header>
+
+  <main class="container page">
+    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / บัญชีของฉัน</div>
+    <div class="eyebrow">MY ACCOUNT</div>
+    <h1>บัญชีของฉัน</h1>
+    <div class="account" style="margin-top:24px">
+      <aside class="card side-menu">
+        <a class="active" href="profile.html">ข้อมูลของฉัน</a>
+        <a href="summary.html">รายการสมัคร</a>
+        <a href="documents.html">เอกสารของฉัน</a>
+        <a href="payment.html">การชำระเงิน</a>
+        <a href="login.html">ออกจากระบบ</a>
+      </aside>
+      <div class="stack">
+        <section class="card">
+          <div class="profile-head"><div class="avatar">สจ</div><div><h2>สมชาย ใจดี</h2><span class="hint">เลขที่ผู้สมัคร KMUTNB-2570-008421</span></div></div>
+          <form class="form" action="profile.html">
+            <h3>ข้อมูลติดต่อ</h3><div class="field-row c2"><div class="field"><label class="" for="f55">ชื่อ</label><input id="f55" name="f55" type="text" value="สมชาย" ></div><div class="field"><label class="" for="f56">นามสกุล</label><input id="f56" name="f56" type="text" value="ใจดี" ></div></div><div class="field-row c2"><div class="field"><label class="" for="f57">อีเมล</label><input id="f57" name="f57" type="email" value="somchai@email.com" ></div><div class="field"><label class="" for="f58">เบอร์โทรศัพท์</label><input id="f58" name="f58" type="tel" value="081-234-5678" ></div></div><div class="field"><label class="" for="f59">ที่อยู่</label><textarea id="f59" name="f59" placeholder="">99 หมู่ 4 ต.ศรีมหาโพธิ อ.ศรีมหาโพธิ จ.ปราจีนบุรี 25140</textarea></div>
+            <div class="form-actions"><span></span><button class="btn" type="submit">บันทึกการเปลี่ยนแปลง</button></div>
+          </form>
+        </section>
+        <section class="card">
+          <h3>การแจ้งเตือน</h3>
+          <label class="switch"><span>แจ้งเตือนทางอีเมล<small>รับข่าวสารการสมัครและสถานะ</small></span><input type="checkbox" checked><i></i></label>
+          <label class="switch"><span>แจ้งเตือนทาง SMS<small>รับแจ้งเตือนก่อนปิดรับสมัคร</small></span><input type="checkbox"><i></i></label>
+          <label class="switch"><span>แจ้งเตือนผลการคัดเลือก<small>รับแจ้งทันทีเมื่อประกาศผล</small></span><input type="checkbox" checked><i></i></label>
+        </section>
+        <section class="card">
+          <form class="form" action="profile.html">
+            <h3>เปลี่ยนรหัสผ่าน</h3><div class="field"><label class="" for="f60">รหัสผ่านปัจจุบัน</label><input id="f60" name="f60" type="password" ></div><div class="field-row c2"><div class="field"><label class="" for="f61">รหัสผ่านใหม่</label><input id="f61" name="f61" type="password" ><small class="hint">อย่างน้อย 8 ตัวอักษร</small></div><div class="field"><label class="" for="f62">ยืนยันรหัสผ่านใหม่</label><input id="f62" name="f62" type="password" ></div></div>
+            <div class="form-actions"><span></span><button class="btn secondary" type="submit">เปลี่ยนรหัสผ่าน</button></div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h4>King Mongkut's University of Technology North Bangkok</h4>
+        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+      </div>
+      <div>
+        <h4>การสมัคร</h4>
+        <a href="rounds.html">รอบรับสมัคร</a>
+        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="summary.html">สถานะการสมัคร</a>
+      </div>
+      <div>
+        <h4>ข่าวสาร</h4>
+        <a href="announcements.html">ประกาศทั้งหมด</a>
+        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+        <a href="faq.html">คำถามที่พบบ่อย</a>
+      </div>
+      <div>
+        <h4>บัญชี</h4>
+        <a href="login.html">เข้าสู่ระบบ</a>
+        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+        <a href="profile.html">บัญชีของฉัน</a>
+        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      </div>
+    </div>
+    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
+  </footer>
+</body>
+</html>

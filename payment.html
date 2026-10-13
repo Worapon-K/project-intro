@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ชำระค่าสมัคร | KMUTNB Admission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"></div>
+  <header class="header">
+    <a class="brand" href="index.html">
+      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+      <div>
+        <b>King Mongkut's University of Technology North Bangkok</b>
+        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+      </div>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
+    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html" class="active">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
+  </header>
+
+  <main class="container page">
+    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / <a href="rounds.html">รอบรับสมัคร</a> / ชำระค่าสมัคร</div>
+    <div class="eyebrow">PAYMENT</div>
+    <h1>ชำระค่าสมัคร</h1>
+    <p class="sub">เลือกช่องทางชำระเงิน แล้วยืนยันการชำระเพื่อส่งใบสมัคร</p>
+    <div class="apply-grid" style="margin-top:24px">
+      <section class="card">
+        <div class="tabs">
+          <input type="radio" name="pay" id="t1" checked>
+          <input type="radio" name="pay" id="t2">
+          <input type="radio" name="pay" id="t3">
+          <div class="tab-labels"><label for="t1">QR PromptPay</label><label for="t2">บัตรเครดิต / เดบิต</label><label for="t3">โอนผ่านธนาคาร</label></div>
+          <div class="panels">
+            <div class="panel panel-1"><div class="pay-box"><div class="qr" role="img" aria-label="QR code ตัวอย่าง"></div><b>สแกนเพื่อชำระ 300 บาท</b><p class="hint">QR มีอายุ 15 นาที หลังชำระเงินระบบจะอัปเดตสถานะอัตโนมัติ</p></div></div>
+            <div class="panel panel-2"><form class="form" action="summary.html"><div class="field"><label class="" for="f45">หมายเลขบัตร</label><input id="f45" name="f45" type="text" placeholder="xxxx xxxx xxxx xxxx" ></div><div class="field"><label class="" for="f46">ชื่อบนบัตร</label><input id="f46" name="f46" type="text" ></div><div class="field-row c2"><div class="field"><label class="" for="f47">วันหมดอายุ</label><input id="f47" name="f47" type="text" placeholder="MM/YY" ></div><div class="field"><label class="" for="f48">CVV</label><input id="f48" name="f48" type="password" placeholder="•••" ></div></div></form></div>
+            <div class="panel panel-3"><dl class="kv"><dt>ธนาคาร</dt><dd>ธนาคารกรุงไทย</dd><dt>ชื่อบัญชี</dt><dd>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</dd><dt>เลขที่บัญชี</dt><dd>123-4-56789-0</dd></dl><div class="notice" style="margin-top:18px">โอนแล้วแนบสลิปในหน้าสถานะการสมัคร เจ้าหน้าที่จะตรวจสอบภายใน 1 วันทำการ</div><div class="upload"><div class="ic">🧾</div><div><div class="top-line"><b>สลิปการโอนเงิน</b><span class="badge amber">ต้องแนบ</span></div><div class="hint">ไฟล์ JPG หรือ PNG</div><input type="file" accept=".pdf,.jpg,.jpeg,.png"></div></div></div>
+          </div>
+        </div>
+        <div class="form-actions"><a class="btn ghost" href="review.html">← ย้อนกลับ</a><a class="btn" href="summary.html">ยืนยันการชำระเงิน</a></div>
+      </section>
+      <aside class="card side">
+        <span class="tag">สรุปรายการ</span>
+        <h3>โควตาเรียนดี</h3>
+        <div class="summary-row"><span>ค่าสมัคร</span><span>300.00 บาท</span></div>
+        <div class="summary-row"><span>ค่าธรรมเนียม</span><span>0.00 บาท</span></div>
+        <div class="summary-row total"><span>ยอดชำระ</span><span>300.00 บาท</span></div>
+        <div class="notice">ค่าสมัครไม่สามารถขอคืนได้ในทุกกรณี</div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <h4>King Mongkut's University of Technology North Bangkok</h4>
+        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+      </div>
+      <div>
+        <h4>การสมัคร</h4>
+        <a href="rounds.html">รอบรับสมัคร</a>
+        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="summary.html">สถานะการสมัคร</a>
+      </div>
+      <div>
+        <h4>ข่าวสาร</h4>
+        <a href="announcements.html">ประกาศทั้งหมด</a>
+        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+        <a href="faq.html">คำถามที่พบบ่อย</a>
+      </div>
+      <div>
+        <h4>บัญชี</h4>
+        <a href="login.html">เข้าสู่ระบบ</a>
+        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+        <a href="profile.html">บัญชีของฉัน</a>
+        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      </div>
+    </div>
+    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
+  </footer>
+</body>
+</html>
