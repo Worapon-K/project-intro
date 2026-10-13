@@ -1,105 +1,185 @@
 <!doctype html>
 <html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>สถานะการสมัคร | KMUTNB Admission</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="top"></div>
-  <header class="header">
-    <a class="brand" href="index.html">
-      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
-      <div>
-        <b>King Mongkut's University of Technology North Bangkok</b>
-        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
-      </div>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
-    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html" class="active">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>สถานะการสมัคร | KMUTNB Admission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <main class="container page">
-    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / สถานะการสมัคร</div>
-    <div class="eyebrow">APPLICATION DASHBOARD</div>
-    <h1>สรุปและสถานะการสมัคร</h1>
-    <p class="sub">ตรวจสอบรายการสมัครและจำนวนผู้สมัครของแต่ละรอบ</p>
+  <body>
+    <div class="top"></div>
 
-    <div class="success" style="margin-top:25px">
-      <div class="check-ic">✓</div>
-      <h2>บันทึกใบสมัครเรียบร้อย</h2>
-      <p>เลขที่ใบสมัคร: <b>KMUTNB-2570-008421</b></p>
-      <span class="badge amber">รอตรวจสอบคุณสมบัติ</span>
-    </div>
-
-    <div class="grid g2" style="grid-template-columns:1.2fr .8fr;align-items:start">
-      <div class="card">
-        <h3>รายการสมัครของฉัน</h3>
-        <div class="table-wrap" style="margin-top:14px"><table class="table">
-          <thead><tr><th>รอบ</th><th>หลักสูตร</th><th>วิทยาเขต</th><th>สถานะ</th></tr></thead>
-          <tbody><tr><td>โควตาเรียนดี</td><td>วิศวกรรมคอมพิวเตอร์</td><td>กรุงเทพฯ</td><td><span class="badge amber">รอตรวจสอบ</span></td></tr></tbody>
-        </table></div>
-        <div class="actions"><a class="btn sm secondary" href="#">พิมพ์ใบสมัคร</a><a class="btn sm secondary" href="#">ดาวน์โหลดใบเสร็จ</a></div>
-      </div>
-      <div class="card">
-        <h3>ความคืบหน้า</h3>
-        <ul class="timeline" style="margin-top:18px">
-          <li class="done"><span class="dot">✓</span><b>ยื่นใบสมัคร</b><span class="hint">บันทึกเรียบร้อย</span></li>
-          <li class="done"><span class="dot">✓</span><b>ชำระค่าสมัคร</b><span class="hint">300 บาท</span></li>
-          <li class="current"><span class="dot"></span><b>ตรวจสอบคุณสมบัติ</b><span class="hint">เจ้าหน้าที่กำลังตรวจสอบเอกสาร</span></li>
-          <li><span class="dot"></span><b>ประกาศผล</b><span class="hint">10 ก.พ. 2570</span></li>
-          <li><span class="dot"></span><b>ยืนยันสิทธิ์</b><span class="hint">ภายใน 20 ก.พ. 2570</span></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="card" style="margin-top:20px">
-      <h3>สถิติผู้สมัครรอบที่เลือก</h3>
-      <div class="grid">
-        <div><div class="hint">ผู้สมัครทั้งหมด</div><h2>2,904</h2><span class="hint">คน</span></div>
-        <div><div class="hint">จำนวนที่นั่ง</div><h2>420</h2><span class="hint">ที่นั่ง</span></div>
-        <div><div class="hint">อัตราการแข่งขัน</div><h2>6.9 : 1</h2><span class="hint">โดยประมาณ</span></div>
-      </div>
-    </div>
-
-    <div class="actions">
-      <a class="btn" href="rounds.html">สมัครรอบ/หลักสูตรอื่น</a>
-      <a class="btn secondary" href="results.html">ตรวจสอบผลการคัดเลือก</a>
-      <a class="btn ghost" href="index.html">กลับหน้าหลัก</a>
-    </div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <h4>King Mongkut's University of Technology North Bangkok</h4>
-        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
-      </div>
-      <div>
-        <h4>การสมัคร</h4>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+        <div>
+          <b>King Mongkut's University of Technology North Bangkok</b>
+          <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="burger" aria-label="เมนู">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav">
+        <a href="index.html">หน้าหลัก</a>
         <a href="rounds.html">รอบรับสมัคร</a>
-        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
-        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
-        <a href="summary.html">สถานะการสมัคร</a>
+        <a href="faculties.html">หลักสูตร</a>
+        <a href="schedule.html">ปฏิทิน</a>
+        <a href="announcements.html">ประกาศ</a>
+        <div class="dropdown">
+          <a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a>
+          <div class="dd-menu">
+            <a href="faq.html">คำถามที่พบบ่อย</a>
+            <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+            <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          </div>
+        </div>
+        <a href="summary.html" class="active">สถานะการสมัคร</a>
+        <a class="nav-cta" href="profile.html">บัญชีของฉัน</a>
+      </nav>
+    </header>
+
+    <main class="container page">
+      <div class="crumbs"><a href="index.html">หน้าหลัก</a> / สถานะการสมัคร</div>
+      <div class="eyebrow">APPLICATION DASHBOARD</div>
+      <h1>สรุปและสถานะการสมัคร</h1>
+      <p class="sub">ตรวจสอบรายการสมัครและจำนวนผู้สมัครของแต่ละรอบ</p>
+
+      <div class="success" style="margin-top:25px">
+        <div class="check-ic">✓</div>
+        <h2>บันทึกใบสมัครเรียบร้อย</h2>
+        <p>เลขที่ใบสมัคร: <b>KMUTNB-2570-008421</b></p>
+        <span class="badge amber">รอตรวจสอบคุณสมบัติ</span>
       </div>
-      <div>
-        <h4>ข่าวสาร</h4>
-        <a href="announcements.html">ประกาศทั้งหมด</a>
-        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
-        <a href="faq.html">คำถามที่พบบ่อย</a>
+
+      <div class="grid g2" style="grid-template-columns:1.2fr .8fr;align-items:start">
+        <div class="card">
+          <h3>รายการสมัครของฉัน</h3>
+          <div class="table-wrap" style="margin-top:14px">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>รอบ</th>
+                  <th>หลักสูตร</th>
+                  <th>วิทยาเขต</th>
+                  <th>สถานะ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>โควตาเรียนดี</td>
+                  <td>วิศวกรรมคอมพิวเตอร์</td>
+                  <td>กรุงเทพฯ</td>
+                  <td><span class="badge amber">รอตรวจสอบ</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="actions">
+            <a class="btn sm secondary" href="#">พิมพ์ใบสมัคร</a>
+            <a class="btn sm secondary" href="#">ดาวน์โหลดใบเสร็จ</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>ความคืบหน้า</h3>
+          <ul class="timeline" style="margin-top:18px">
+            <li class="done">
+              <span class="dot">✓</span>
+              <b>ยื่นใบสมัคร</b>
+              <span class="hint">บันทึกเรียบร้อย</span>
+            </li>
+            <li class="done">
+              <span class="dot">✓</span>
+              <b>ชำระค่าสมัคร</b>
+              <span class="hint">300 บาท</span>
+            </li>
+            <li class="current">
+              <span class="dot"></span>
+              <b>ตรวจสอบคุณสมบัติ</b>
+              <span class="hint">เจ้าหน้าที่กำลังตรวจสอบเอกสาร</span>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <b>ประกาศผล</b>
+              <span class="hint">10 ก.พ. 2570</span>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <b>ยืนยันสิทธิ์</b>
+              <span class="hint">ภายใน 20 ก.พ. 2570</span>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h4>บัญชี</h4>
-        <a href="login.html">เข้าสู่ระบบ</a>
-        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
-        <a href="profile.html">บัญชีของฉัน</a>
-        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+
+      <div class="card" style="margin-top:20px">
+        <h3>สถิติผู้สมัครรอบที่เลือก</h3>
+        <div class="grid">
+          <div>
+            <div class="hint">ผู้สมัครทั้งหมด</div>
+            <h2>2,904</h2>
+            <span class="hint">คน</span>
+          </div>
+          <div>
+            <div class="hint">จำนวนที่นั่ง</div>
+            <h2>420</h2>
+            <span class="hint">ที่นั่ง</span>
+          </div>
+          <div>
+            <div class="hint">อัตราการแข่งขัน</div>
+            <h2>6.9 : 1</h2>
+            <span class="hint">โดยประมาณ</span>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
-  </footer>
-</body>
+
+      <div class="actions">
+        <a class="btn" href="rounds.html">สมัครรอบ/หลักสูตรอื่น</a>
+        <a class="btn secondary" href="results.html">ตรวจสอบผลการคัดเลือก</a>
+        <a class="btn ghost" href="index.html">กลับหน้าหลัก</a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h4>King Mongkut's University of Technology North Bangkok</h4>
+          <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+        </div>
+        <div>
+          <h4>การสมัคร</h4>
+          <a href="rounds.html">รอบรับสมัคร</a>
+          <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+          <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+          <a href="summary.html">สถานะการสมัคร</a>
+        </div>
+        <div>
+          <h4>ข่าวสาร</h4>
+          <a href="announcements.html">ประกาศทั้งหมด</a>
+          <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          <a href="faq.html">คำถามที่พบบ่อย</a>
+        </div>
+        <div>
+          <h4>บัญชี</h4>
+          <a href="login.html">เข้าสู่ระบบ</a>
+          <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+          <a href="profile.html">บัญชีของฉัน</a>
+          <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok
+      </div>
+    </footer>
+  </body>
 </html>
