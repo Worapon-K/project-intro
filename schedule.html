@@ -1,91 +1,203 @@
 <!doctype html>
 <html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ปฏิทินการรับสมัคร | KMUTNB Admission</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="top"></div>
-  <header class="header">
-    <a class="brand" href="index.html">
-      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
-      <div>
-        <b>King Mongkut's University of Technology North Bangkok</b>
-        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
-      </div>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
-    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html" class="active">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ปฏิทินการรับสมัคร | KMUTNB Admission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <main class="container page">
-    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / ปฏิทิน</div>
-    <div class="eyebrow">CALENDAR</div>
-    <h1>ปฏิทินการรับสมัคร</h1>
-    <p class="sub">กำหนดการสำคัญของการรับสมัครนักศึกษา ปีการศึกษา 2570</p>
-    <div class="grid g2" style="grid-template-columns:1.2fr .8fr;align-items:start">
-      <div class="card">
-        <h3>ขั้นตอนและกำหนดการสำคัญ</h3>
-        <ul class="timeline" style="margin-top:20px">
-          <li class="done"><span class="dot">✓</span><b>เปิดรับสมัครรอบแฟ้มสะสมผลงาน</b><span class="hint">1 ก.ย. 2569</span></li>
-          <li class="current"><span class="dot"></span><b>เปิดรับสมัครรอบโควตาเรียนดี โควตาพื้นที่ ความสามารถพิเศษ และรับตรง</b><span class="hint">1 ต.ค. 2569</span></li>
-          <li class=""><span class="dot"></span><b>ปิดรับสมัครรอบแฟ้มสะสมผลงาน</b><span class="hint">30 พ.ย. 2569</span></li>
-          <li class=""><span class="dot"></span><b>ปิดรับสมัครรอบโควตาเรียนดี</b><span class="hint">15 ม.ค. 2570</span></li>
-          <li class=""><span class="dot"></span><b>ปิดรับสมัครรอบโควตาพื้นที่</b><span class="hint">28 ก.พ. 2570</span></li>
-          <li class=""><span class="dot"></span><b>ปิดรับสมัครรอบความสามารถพิเศษ</b><span class="hint">31 มี.ค. 2570</span></li>
-          <li class=""><span class="dot"></span><b>ปิดรับสมัครรอบรับตรง</b><span class="hint">30 เม.ย. 2570</span></li>
-          <li class=""><span class="dot"></span><b>รายงานตัวและยืนยันสิทธิ์</b><span class="hint">มิ.ย. 2570</span></li>
-        </ul>
-      </div>
-      <aside class="card side">
-        <span class="tag">ใกล้ปิดรับ</span>
-        <h3>รอบแฟ้มสะสมผลงาน</h3>
-        <p class="hint">ปิดรับสมัคร 30 พ.ย. 2569</p>
-        <div class="progress"><i style="width:62%"></i></div>
-        <p class="hint">ผ่านไปแล้ว 62% ของช่วงรับสมัคร</p>
-        <a class="btn block" href="apply.html">สมัครรอบนี้</a>
-        <div class="divider"></div>
-        <p class="hint" style="margin:0">ต้องการแจ้งเตือนก่อนปิดรับสมัคร ตั้งค่าได้ที่ <a href="profile.html" style="color:var(--red);font-weight:700">บัญชีของฉัน</a></p>
-      </aside>
-    </div>
-    <section class="section">
-      <div class="section-head"><div><h2>กำหนดการแยกตามรอบ</h2></div></div>
-      <div class="table-wrap"><table class="table"><thead><tr><th>รอบ</th><th>ช่วงรับสมัคร</th><th>สอบ / สัมภาษณ์</th><th>ประกาศผล</th></tr></thead><tbody><tr><td><b>รอบแฟ้มสะสมผลงาน</b></td><td>1 ก.ย. – 30 พ.ย. 2569</td><td>สัมภาษณ์ 10–12 ธ.ค. 2569</td><td>20 ธ.ค. 2569</td></tr><tr><td><b>โควตาเรียนดี</b></td><td>1 ต.ค. 2569 – 15 ม.ค. 2570</td><td>ไม่มีสอบ</td><td>10 ก.พ. 2570</td></tr><tr><td><b>โควตาพื้นที่</b></td><td>1 ต.ค. 2569 – 28 ก.พ. 2570</td><td>ไม่มีสอบ</td><td>20 มี.ค. 2570</td></tr><tr><td><b>ความสามารถพิเศษ</b></td><td>1 ต.ค. 2569 – 31 มี.ค. 2570</td><td>ทดสอบทักษะ 10 เม.ย. 2570</td><td>25 เม.ย. 2570</td></tr><tr><td><b>รับตรง / Admission</b></td><td>1 ต.ค. 2569 – 30 เม.ย. 2570</td><td>สอบข้อเขียน 10 พ.ค. 2570</td><td>20 พ.ค. 2570</td></tr></tbody></table></div>
-    </section>
-  </main>
+  <body>
+    <div class="top"></div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <h4>King Mongkut's University of Technology North Bangkok</h4>
-        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
-      </div>
-      <div>
-        <h4>การสมัคร</h4>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+        <div>
+          <b>King Mongkut's University of Technology North Bangkok</b>
+          <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="burger" aria-label="เมนู">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav">
+        <a href="index.html">หน้าหลัก</a>
         <a href="rounds.html">รอบรับสมัคร</a>
-        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
-        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="faculties.html">หลักสูตร</a>
+        <a href="schedule.html" class="active">ปฏิทิน</a>
+        <a href="announcements.html">ประกาศ</a>
+        <div class="dropdown">
+          <a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a>
+          <div class="dd-menu">
+            <a href="faq.html">คำถามที่พบบ่อย</a>
+            <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+            <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          </div>
+        </div>
         <a href="summary.html">สถานะการสมัคร</a>
+        <a class="nav-cta" href="profile.html">บัญชีของฉัน</a>
+      </nav>
+    </header>
+
+    <main class="container page">
+      <div class="crumbs"><a href="index.html">หน้าหลัก</a> / ปฏิทิน</div>
+      <div class="eyebrow">CALENDAR</div>
+      <h1>ปฏิทินการรับสมัคร</h1>
+      <p class="sub">กำหนดการสำคัญของการรับสมัครนักศึกษา ปีการศึกษา 2570</p>
+
+      <div class="grid g2" style="grid-template-columns:1.2fr .8fr;align-items:start">
+        <div class="card">
+          <h3>ขั้นตอนและกำหนดการสำคัญ</h3>
+          <ul class="timeline" style="margin-top:20px">
+            <li class="done">
+              <span class="dot">✓</span>
+              <b>เปิดรับสมัครรอบแฟ้มสะสมผลงาน</b>
+              <span class="hint">1 ก.ย. 2569</span>
+            </li>
+            <li class="current">
+              <span class="dot"></span>
+              <b>เปิดรับสมัครรอบโควตาเรียนดี โควตาพื้นที่ ความสามารถพิเศษ และรับตรง</b>
+              <span class="hint">1 ต.ค. 2569</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>ปิดรับสมัครรอบแฟ้มสะสมผลงาน</b>
+              <span class="hint">30 พ.ย. 2569</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>ปิดรับสมัครรอบโควตาเรียนดี</b>
+              <span class="hint">15 ม.ค. 2570</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>ปิดรับสมัครรอบโควตาพื้นที่</b>
+              <span class="hint">28 ก.พ. 2570</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>ปิดรับสมัครรอบความสามารถพิเศษ</b>
+              <span class="hint">31 มี.ค. 2570</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>ปิดรับสมัครรอบรับตรง</b>
+              <span class="hint">30 เม.ย. 2570</span>
+            </li>
+            <li class="">
+              <span class="dot"></span>
+              <b>รายงานตัวและยืนยันสิทธิ์</b>
+              <span class="hint">มิ.ย. 2570</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="card side">
+          <span class="tag">ใกล้ปิดรับ</span>
+          <h3>รอบแฟ้มสะสมผลงาน</h3>
+          <p class="hint">ปิดรับสมัคร 30 พ.ย. 2569</p>
+          <div class="progress"><i style="width:62%"></i></div>
+          <p class="hint">ผ่านไปแล้ว 62% ของช่วงรับสมัคร</p>
+          <a class="btn block" href="apply.html">สมัครรอบนี้</a>
+          <div class="divider"></div>
+          <p class="hint" style="margin:0">
+            ต้องการแจ้งเตือนก่อนปิดรับสมัคร ตั้งค่าได้ที่ <a href="profile.html" style="color:var(--red);font-weight:700">บัญชีของฉัน</a>
+          </p>
+        </aside>
       </div>
-      <div>
-        <h4>ข่าวสาร</h4>
-        <a href="announcements.html">ประกาศทั้งหมด</a>
-        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
-        <a href="faq.html">คำถามที่พบบ่อย</a>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <h2>กำหนดการแยกตามรอบ</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>รอบ</th>
+                <th>ช่วงรับสมัคร</th>
+                <th>สอบ / สัมภาษณ์</th>
+                <th>ประกาศผล</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>รอบแฟ้มสะสมผลงาน</b></td>
+                <td>1 ก.ย. – 30 พ.ย. 2569</td>
+                <td>สัมภาษณ์ 10–12 ธ.ค. 2569</td>
+                <td>20 ธ.ค. 2569</td>
+              </tr>
+              <tr>
+                <td><b>โควตาเรียนดี</b></td>
+                <td>1 ต.ค. 2569 – 15 ม.ค. 2570</td>
+                <td>ไม่มีสอบ</td>
+                <td>10 ก.พ. 2570</td>
+              </tr>
+              <tr>
+                <td><b>โควตาพื้นที่</b></td>
+                <td>1 ต.ค. 2569 – 28 ก.พ. 2570</td>
+                <td>ไม่มีสอบ</td>
+                <td>20 มี.ค. 2570</td>
+              </tr>
+              <tr>
+                <td><b>ความสามารถพิเศษ</b></td>
+                <td>1 ต.ค. 2569 – 31 มี.ค. 2570</td>
+                <td>ทดสอบทักษะ 10 เม.ย. 2570</td>
+                <td>25 เม.ย. 2570</td>
+              </tr>
+              <tr>
+                <td><b>รับตรง / Admission</b></td>
+                <td>1 ต.ค. 2569 – 30 เม.ย. 2570</td>
+                <td>สอบข้อเขียน 10 พ.ค. 2570</td>
+                <td>20 พ.ค. 2570</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h4>King Mongkut's University of Technology North Bangkok</h4>
+          <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+        </div>
+        <div>
+          <h4>การสมัคร</h4>
+          <a href="rounds.html">รอบรับสมัคร</a>
+          <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+          <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+          <a href="summary.html">สถานะการสมัคร</a>
+        </div>
+        <div>
+          <h4>ข่าวสาร</h4>
+          <a href="announcements.html">ประกาศทั้งหมด</a>
+          <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          <a href="faq.html">คำถามที่พบบ่อย</a>
+        </div>
+        <div>
+          <h4>บัญชี</h4>
+          <a href="login.html">เข้าสู่ระบบ</a>
+          <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+          <a href="profile.html">บัญชีของฉัน</a>
+          <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+        </div>
       </div>
-      <div>
-        <h4>บัญชี</h4>
-        <a href="login.html">เข้าสู่ระบบ</a>
-        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
-        <a href="profile.html">บัญชีของฉัน</a>
-        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      <div class="footer-bottom">
+        ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok
       </div>
-    </div>
-    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
