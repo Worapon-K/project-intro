@@ -1,80 +1,203 @@
 <!doctype html>
 <html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ประกาศ | KMUTNB Admission</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="top"></div>
-  <header class="header">
-    <a class="brand" href="index.html">
-      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
-      <div>
-        <b>King Mongkut's University of Technology North Bangkok</b>
-        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
-      </div>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
-    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html">รอบรับสมัคร</a><a href="faculties.html">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html" class="active">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ประกาศ | KMUTNB Admission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <main class="container page">
-    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / ประกาศ</div>
-    <div class="eyebrow">ANNOUNCEMENTS</div>
-    <h1>ประกาศและข่าวสาร</h1>
-    <p class="sub">ติดตามประกาศล่าสุดเกี่ยวกับการรับสมัครและผลการคัดเลือก</p>
-    <div class="apply-grid" style="margin-top:26px">
-      <div class="tabs">
-        <input type="radio" name="cat" id="f-all" checked>
-        <input type="radio" name="cat" id="f-a">
-        <input type="radio" name="cat" id="f-b">
-        <input type="radio" name="cat" id="f-c">
-        <div class="tab-labels"><label for="f-all">ทั้งหมด</label><label for="f-a">ประกาศทั่วไป</label><label for="f-b">ผลการคัดเลือก</label><label for="f-c">สอบสัมภาษณ์</label></div>
-        <div class="news items"><div class="item c-a"><a href="announcements.html"><div class="date-box">10<small>ต.ค.</small></div><div><b>เปิดรับสมัครรอบโควตาเรียนดี ปีการศึกษา 2570</b><span class="hint">ผู้สมัครสามารถยื่นใบสมัครได้ตั้งแต่วันนี้ถึง 15 ม.ค. 2570</span></div><span class="badge ">ทั่วไป</span></a></div><div class="item c-b"><a href="announcements.html"><div class="date-box">08<small>ต.ค.</small></div><div><b>ประกาศผลการคัดเลือกรอบแฟ้มสะสมผลงาน (รอบที่ 1)</b><span class="hint">ตรวจสอบรายชื่อผู้ผ่านการคัดเลือกและขั้นตอนยืนยันสิทธิ์</span></div><span class="badge blue">ผลการคัดเลือก</span></a></div><div class="item c-c"><a href="announcements.html"><div class="date-box">05<small>ต.ค.</small></div><div><b>ตารางสอบสัมภาษณ์ สาขาวิศวกรรมคอมพิวเตอร์</b><span class="hint">สอบสัมภาษณ์ ณ อาคารเรียนรวม วิทยาเขตกรุงเทพฯ</span></div><span class="badge amber">สอบสัมภาษณ์</span></a></div><div class="item c-a"><a href="announcements.html"><div class="date-box">01<small>ต.ค.</small></div><div><b>แนวทางการอัปโหลดเอกสารประกอบการสมัคร</b><span class="hint">รองรับไฟล์ PDF, JPG, PNG ขนาดไม่เกิน 5 MB ต่อไฟล์</span></div><span class="badge ">ทั่วไป</span></a></div><div class="item c-b"><a href="announcements.html"><div class="date-box">28<small>ก.ย.</small></div><div><b>ประกาศรายชื่อผู้มีสิทธิ์สอบสัมภาษณ์ รอบแฟ้มสะสมผลงาน</b><span class="hint">ตรวจสอบรายชื่อและเวลานัดหมายผ่านระบบ</span></div><span class="badge blue">ผลการคัดเลือก</span></a></div><div class="item c-a"><a href="announcements.html"><div class="date-box">20<small>ก.ย.</small></div><div><b>ปรับปรุงจำนวนที่นั่งรอบโควตาพื้นที่</b><span class="hint">เพิ่มจำนวนที่นั่งในหลักสูตรวิทยาเขตปราจีนบุรีและระยอง</span></div><span class="badge ">ทั่วไป</span></a></div><div class="item c-c"><a href="announcements.html"><div class="date-box">15<small>ก.ย.</small></div><div><b>กำหนดการสอบสัมภาษณ์ รอบความสามารถพิเศษ</b><span class="hint">ผู้สมัครต้องแสดงบัตรประชาชนและใบสมัครในวันสอบ</span></div><span class="badge amber">สอบสัมภาษณ์</span></a></div><div class="item c-b"><a href="announcements.html"><div class="date-box">10<small>ก.ย.</small></div><div><b>ประกาศผลการคัดเลือกรอบโควตาเรียนดี (ผลเบื้องต้น)</b><span class="hint">ผู้ผ่านการคัดเลือกต้องยืนยันสิทธิ์ภายในวันที่กำหนด</span></div><span class="badge blue">ผลการคัดเลือก</span></a></div></div>
-      </div>
-      <aside class="card side">
-        <span class="tag">ตรวจสอบผล</span>
-        <h3>ผลการคัดเลือก</h3>
-        <p class="hint">กรอกเลขบัตรประชาชนเพื่อตรวจสอบผลการคัดเลือกของคุณ</p>
-        <a class="btn block" href="results.html">ตรวจสอบผลการคัดเลือก</a>
-        <div class="divider"></div>
-        <a class="link-more" href="faq.html">คำถามที่พบบ่อย →</a>
-      </aside>
-    </div>
-  </main>
+  <body>
+    <div class="top"></div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <h4>King Mongkut's University of Technology North Bangkok</h4>
-        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
-      </div>
-      <div>
-        <h4>การสมัคร</h4>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+        <div>
+          <b>King Mongkut's University of Technology North Bangkok</b>
+          <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="burger" aria-label="เมนู">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav">
+        <a href="index.html">หน้าหลัก</a>
         <a href="rounds.html">รอบรับสมัคร</a>
-        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
-        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="faculties.html">หลักสูตร</a>
+        <a href="schedule.html">ปฏิทิน</a>
+        <a href="announcements.html" class="active">ประกาศ</a>
+        <div class="dropdown">
+          <a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a>
+          <div class="dd-menu">
+            <a href="faq.html">คำถามที่พบบ่อย</a>
+            <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+            <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          </div>
+        </div>
         <a href="summary.html">สถานะการสมัคร</a>
+        <a class="nav-cta" href="profile.html">บัญชีของฉัน</a>
+      </nav>
+    </header>
+
+    <main class="container page">
+      <div class="crumbs"><a href="index.html">หน้าหลัก</a> / ประกาศ</div>
+      <div class="eyebrow">ANNOUNCEMENTS</div>
+      <h1>ประกาศและข่าวสาร</h1>
+      <p class="sub">ติดตามประกาศล่าสุดเกี่ยวกับการรับสมัครและผลการคัดเลือก</p>
+
+      <div class="apply-grid" style="margin-top:26px">
+        <div class="tabs">
+          <input type="radio" name="cat" id="f-all" checked>
+          <input type="radio" name="cat" id="f-a">
+          <input type="radio" name="cat" id="f-b">
+          <input type="radio" name="cat" id="f-c">
+          <div class="tab-labels">
+            <label for="f-all">ทั้งหมด</label>
+            <label for="f-a">ประกาศทั่วไป</label>
+            <label for="f-b">ผลการคัดเลือก</label>
+            <label for="f-c">สอบสัมภาษณ์</label>
+          </div>
+          <div class="news items">
+            <div class="item c-a">
+              <a href="announcements.html">
+                <div class="date-box">10<small>ต.ค.</small></div>
+                <div>
+                  <b>เปิดรับสมัครรอบโควตาเรียนดี ปีการศึกษา 2570</b>
+                  <span class="hint">ผู้สมัครสามารถยื่นใบสมัครได้ตั้งแต่วันนี้ถึง 15 ม.ค. 2570</span>
+                </div>
+                <span class="badge ">ทั่วไป</span>
+              </a>
+            </div>
+
+            <div class="item c-b">
+              <a href="announcements.html">
+                <div class="date-box">08<small>ต.ค.</small></div>
+                <div>
+                  <b>ประกาศผลการคัดเลือกรอบแฟ้มสะสมผลงาน (รอบที่ 1)</b>
+                  <span class="hint">ตรวจสอบรายชื่อผู้ผ่านการคัดเลือกและขั้นตอนยืนยันสิทธิ์</span>
+                </div>
+                <span class="badge blue">ผลการคัดเลือก</span>
+              </a>
+            </div>
+
+            <div class="item c-c">
+              <a href="announcements.html">
+                <div class="date-box">05<small>ต.ค.</small></div>
+                <div>
+                  <b>ตารางสอบสัมภาษณ์ สาขาวิศวกรรมคอมพิวเตอร์</b>
+                  <span class="hint">สอบสัมภาษณ์ ณ อาคารเรียนรวม วิทยาเขตกรุงเทพฯ</span>
+                </div>
+                <span class="badge amber">สอบสัมภาษณ์</span>
+              </a>
+            </div>
+
+            <div class="item c-a">
+              <a href="announcements.html">
+                <div class="date-box">01<small>ต.ค.</small></div>
+                <div>
+                  <b>แนวทางการอัปโหลดเอกสารประกอบการสมัคร</b>
+                  <span class="hint">รองรับไฟล์ PDF, JPG, PNG ขนาดไม่เกิน 5 MB ต่อไฟล์</span>
+                </div>
+                <span class="badge ">ทั่วไป</span>
+              </a>
+            </div>
+
+            <div class="item c-b">
+              <a href="announcements.html">
+                <div class="date-box">28<small>ก.ย.</small></div>
+                <div>
+                  <b>ประกาศรายชื่อผู้มีสิทธิ์สอบสัมภาษณ์ รอบแฟ้มสะสมผลงาน</b>
+                  <span class="hint">ตรวจสอบรายชื่อและเวลานัดหมายผ่านระบบ</span>
+                </div>
+                <span class="badge blue">ผลการคัดเลือก</span>
+              </a>
+            </div>
+
+            <div class="item c-a">
+              <a href="announcements.html">
+                <div class="date-box">20<small>ก.ย.</small></div>
+                <div>
+                  <b>ปรับปรุงจำนวนที่นั่งรอบโควตาพื้นที่</b>
+                  <span class="hint">เพิ่มจำนวนที่นั่งในหลักสูตรวิทยาเขตปราจีนบุรีและระยอง</span>
+                </div>
+                <span class="badge ">ทั่วไป</span>
+              </a>
+            </div>
+
+            <div class="item c-c">
+              <a href="announcements.html">
+                <div class="date-box">15<small>ก.ย.</small></div>
+                <div>
+                  <b>กำหนดการสอบสัมภาษณ์ รอบความสามารถพิเศษ</b>
+                  <span class="hint">ผู้สมัครต้องแสดงบัตรประชาชนและใบสมัครในวันสอบ</span>
+                </div>
+                <span class="badge amber">สอบสัมภาษณ์</span>
+              </a>
+            </div>
+
+            <div class="item c-b">
+              <a href="announcements.html">
+                <div class="date-box">10<small>ก.ย.</small></div>
+                <div>
+                  <b>ประกาศผลการคัดเลือกรอบโควตาเรียนดี (ผลเบื้องต้น)</b>
+                  <span class="hint">ผู้ผ่านการคัดเลือกต้องยืนยันสิทธิ์ภายในวันที่กำหนด</span>
+                </div>
+                <span class="badge blue">ผลการคัดเลือก</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card side">
+          <span class="tag">ตรวจสอบผล</span>
+          <h3>ผลการคัดเลือก</h3>
+          <p class="hint">กรอกเลขบัตรประชาชนเพื่อตรวจสอบผลการคัดเลือกของคุณ</p>
+          <a class="btn block" href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          <div class="divider"></div>
+          <a class="link-more" href="faq.html">คำถามที่พบบ่อย →</a>
+        </aside>
       </div>
-      <div>
-        <h4>ข่าวสาร</h4>
-        <a href="announcements.html">ประกาศทั้งหมด</a>
-        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
-        <a href="faq.html">คำถามที่พบบ่อย</a>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h4>King Mongkut's University of Technology North Bangkok</h4>
+          <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+        </div>
+        <div>
+          <h4>การสมัคร</h4>
+          <a href="rounds.html">รอบรับสมัคร</a>
+          <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+          <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+          <a href="summary.html">สถานะการสมัคร</a>
+        </div>
+        <div>
+          <h4>ข่าวสาร</h4>
+          <a href="announcements.html">ประกาศทั้งหมด</a>
+          <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          <a href="faq.html">คำถามที่พบบ่อย</a>
+        </div>
+        <div>
+          <h4>บัญชี</h4>
+          <a href="login.html">เข้าสู่ระบบ</a>
+          <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+          <a href="profile.html">บัญชีของฉัน</a>
+          <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+        </div>
       </div>
-      <div>
-        <h4>บัญชี</h4>
-        <a href="login.html">เข้าสู่ระบบ</a>
-        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
-        <a href="profile.html">บัญชีของฉัน</a>
-        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      <div class="footer-bottom">
+        ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok
       </div>
-    </div>
-    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
