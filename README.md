@@ -17,5 +17,3 @@
 - faq.html, contact.html ช่วยเหลือและติดต่อ
 - profile.html บัญชีของฉัน
 - 404.html ไม่พบหน้า
-
-วางโลโก้ที่ image/logo_kmutnb.png
