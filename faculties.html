@@ -1,71 +1,270 @@
 <!doctype html>
 <html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>หลักสูตรที่เปิดรับ | KMUTNB Admission</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="top"></div>
-  <header class="header">
-    <a class="brand" href="index.html">
-      <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
-      <div>
-        <b>King Mongkut's University of Technology North Bangkok</b>
-        <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
-      </div>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="burger" aria-label="เมนู"><span></span><span></span><span></span></label>
-    <nav class="nav"><a href="index.html">หน้าหลัก</a><a href="rounds.html">รอบรับสมัคร</a><a href="faculties.html" class="active">หลักสูตร</a><a href="schedule.html">ปฏิทิน</a><a href="announcements.html">ประกาศ</a><div class="dropdown"><a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a><div class="dd-menu"><a href="faq.html">คำถามที่พบบ่อย</a><a href="contact.html">ติดต่อเจ้าหน้าที่</a><a href="results.html">ตรวจสอบผลการคัดเลือก</a></div></div><a href="summary.html">สถานะการสมัคร</a><a class="nav-cta" href="profile.html">บัญชีของฉัน</a></nav>
-  </header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>หลักสูตรที่เปิดรับ | KMUTNB Admission</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-  <main class="container page">
-    <div class="crumbs"><a href="index.html">หน้าหลัก</a> / หลักสูตร</div>
-    <div class="eyebrow">PROGRAMS</div>
-    <h1>หลักสูตรที่เปิดรับสมัคร</h1>
-    <p class="sub">เลือกดูหลักสูตรตามวิทยาเขต แล้วเริ่มสมัครได้ทันที</p>
-    <div class="tabs" style="margin-top:26px">
-      <input type="radio" name="campus" id="f-all" checked>
-      <input type="radio" name="campus" id="f-a">
-      <input type="radio" name="campus" id="f-b">
-      <input type="radio" name="campus" id="f-c">
-      <div class="tab-labels"><label for="f-all">ทั้งหมด</label><label for="f-a">กรุงเทพฯ</label><label for="f-b">ปราจีนบุรี</label><label for="f-c">ระยอง</label></div>
-      <div class="grid items flat"><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>วิศวกรรมคอมพิวเตอร์</h3><div class="fac">คณะวิศวกรรมศาสตร์</div><div class="meta"><div>จำนวนรับ<b>60 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>วิศวกรรมไฟฟ้า</h3><div class="fac">คณะวิศวกรรมศาสตร์</div><div class="meta"><div>จำนวนรับ<b>80 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>วิศวกรรมเครื่องกล</h3><div class="fac">คณะวิศวกรรมศาสตร์</div><div class="meta"><div>จำนวนรับ<b>80 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>เทคโนโลยีสารสนเทศ</h3><div class="fac">คณะเทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัล</div><div class="meta"><div>จำนวนรับ<b>90 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>วิทยาการคอมพิวเตอร์</h3><div class="fac">คณะวิทยาศาสตร์ประยุกต์</div><div class="meta"><div>จำนวนรับ<b>60 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>สถาปัตยกรรมศาสตร์</h3><div class="fac">คณะสถาปัตยกรรมและการออกแบบ</div><div class="meta"><div>จำนวนรับ<b>40 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-a"><div class="round-top"><span class="tag">กรุงเทพฯ</span><span class="badge">เปิดรับ</span></div><h3>บริหารธุรกิจ</h3><div class="fac">คณะบริหารธุรกิจและอุตสาหกรรมบริการ</div><div class="meta"><div>จำนวนรับ<b>100 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-b"><div class="round-top"><span class="tag">ปราจีนบุรี</span><span class="badge">เปิดรับ</span></div><h3>วิศวกรรมอุตสาหการ</h3><div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div><div class="meta"><div>จำนวนรับ<b>70 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-b"><div class="round-top"><span class="tag">ปราจีนบุรี</span><span class="badge">เปิดรับ</span></div><h3>เทคโนโลยีการจัดการอุตสาหกรรม</h3><div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div><div class="meta"><div>จำนวนรับ<b>60 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-b"><div class="round-top"><span class="tag">ปราจีนบุรี</span><span class="badge">เปิดรับ</span></div><h3>เทคโนโลยีการอาหาร</h3><div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div><div class="meta"><div>จำนวนรับ<b>50 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-c"><div class="round-top"><span class="tag">ระยอง</span><span class="badge">เปิดรับ</span></div><h3>วิศวกรรมการผลิตอัจฉริยะ</h3><div class="fac">วิทยาเขตระยอง</div><div class="meta"><div>จำนวนรับ<b>50 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div><div class="card course item c-c"><div class="round-top"><span class="tag">ระยอง</span><span class="badge">เปิดรับ</span></div><h3>เทคโนโลยีดิจิทัลเพื่ออุตสาหกรรม</h3><div class="fac">วิทยาเขตระยอง</div><div class="meta"><div>จำนวนรับ<b>40 ที่นั่ง</b></div><div>ระยะเวลา<b>4 ปี</b></div></div></div></div>
-    </div>
-    <section class="section"><div class="cta"><div><h2>เจอหลักสูตรที่ใช่แล้ว</h2><p>เลือกรอบสมัครที่ตรงกับคุณสมบัติและเริ่มกรอกใบสมัคร</p></div><a class="btn" href="rounds.html">เลือกรอบสมัคร</a></div></section>
-  </main>
+  <body>
+    <div class="top"></div>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div>
-        <h4>King Mongkut's University of Technology North Bangkok</h4>
-        <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
-      </div>
-      <div>
-        <h4>การสมัคร</h4>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <div class="logo"><img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB"></div>
+        <div>
+          <b>King Mongkut's University of Technology North Bangkok</b>
+          <span>ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+        </div>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="burger" aria-label="เมนู">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav">
+        <a href="index.html">หน้าหลัก</a>
         <a href="rounds.html">รอบรับสมัคร</a>
-        <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
-        <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+        <a href="faculties.html" class="active">หลักสูตร</a>
+        <a href="schedule.html">ปฏิทิน</a>
+        <a href="announcements.html">ประกาศ</a>
+        <div class="dropdown">
+          <a class="dd-label" href="faq.html">ช่วยเหลือ ▾</a>
+          <div class="dd-menu">
+            <a href="faq.html">คำถามที่พบบ่อย</a>
+            <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+            <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          </div>
+        </div>
         <a href="summary.html">สถานะการสมัคร</a>
+        <a class="nav-cta" href="profile.html">บัญชีของฉัน</a>
+      </nav>
+    </header>
+
+    <main class="container page">
+      <div class="crumbs"><a href="index.html">หน้าหลัก</a> / หลักสูตร</div>
+      <div class="eyebrow">PROGRAMS</div>
+      <h1>หลักสูตรที่เปิดรับสมัคร</h1>
+      <p class="sub">เลือกดูหลักสูตรตามวิทยาเขต แล้วเริ่มสมัครได้ทันที</p>
+
+      <div class="tabs" style="margin-top:26px">
+        <input type="radio" name="campus" id="f-all" checked>
+        <input type="radio" name="campus" id="f-a">
+        <input type="radio" name="campus" id="f-b">
+        <input type="radio" name="campus" id="f-c">
+        <div class="tab-labels">
+          <label for="f-all">ทั้งหมด</label>
+          <label for="f-a">กรุงเทพฯ</label>
+          <label for="f-b">ปราจีนบุรี</label>
+          <label for="f-c">ระยอง</label>
+        </div>
+        <div class="grid items flat">
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิศวกรรมคอมพิวเตอร์</h3>
+            <div class="fac">คณะวิศวกรรมศาสตร์</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>60 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิศวกรรมไฟฟ้า</h3>
+            <div class="fac">คณะวิศวกรรมศาสตร์</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>80 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิศวกรรมเครื่องกล</h3>
+            <div class="fac">คณะวิศวกรรมศาสตร์</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>80 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>เทคโนโลยีสารสนเทศ</h3>
+            <div class="fac">คณะเทคโนโลยีสารสนเทศและนวัตกรรมดิจิทัล</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>90 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิทยาการคอมพิวเตอร์</h3>
+            <div class="fac">คณะวิทยาศาสตร์ประยุกต์</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>60 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>สถาปัตยกรรมศาสตร์</h3>
+            <div class="fac">คณะสถาปัตยกรรมและการออกแบบ</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>40 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-a">
+            <div class="round-top">
+              <span class="tag">กรุงเทพฯ</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>บริหารธุรกิจ</h3>
+            <div class="fac">คณะบริหารธุรกิจและอุตสาหกรรมบริการ</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>100 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-b">
+            <div class="round-top">
+              <span class="tag">ปราจีนบุรี</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิศวกรรมอุตสาหการ</h3>
+            <div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>70 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-b">
+            <div class="round-top">
+              <span class="tag">ปราจีนบุรี</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>เทคโนโลยีการจัดการอุตสาหกรรม</h3>
+            <div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>60 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-b">
+            <div class="round-top">
+              <span class="tag">ปราจีนบุรี</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>เทคโนโลยีการอาหาร</h3>
+            <div class="fac">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>50 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-c">
+            <div class="round-top">
+              <span class="tag">ระยอง</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>วิศวกรรมการผลิตอัจฉริยะ</h3>
+            <div class="fac">วิทยาเขตระยอง</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>50 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+
+          <div class="card course item c-c">
+            <div class="round-top">
+              <span class="tag">ระยอง</span>
+              <span class="badge">เปิดรับ</span>
+            </div>
+            <h3>เทคโนโลยีดิจิทัลเพื่ออุตสาหกรรม</h3>
+            <div class="fac">วิทยาเขตระยอง</div>
+            <div class="meta">
+              <div>จำนวนรับ<b>40 ที่นั่ง</b></div>
+              <div>ระยะเวลา<b>4 ปี</b></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h4>ข่าวสาร</h4>
-        <a href="announcements.html">ประกาศทั้งหมด</a>
-        <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
-        <a href="faq.html">คำถามที่พบบ่อย</a>
+
+      <section class="section">
+        <div class="cta">
+          <div>
+            <h2>เจอหลักสูตรที่ใช่แล้ว</h2>
+            <p>เลือกรอบสมัครที่ตรงกับคุณสมบัติและเริ่มกรอกใบสมัคร</p>
+          </div>
+          <a class="btn" href="rounds.html">เลือกรอบสมัคร</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <h4>King Mongkut's University of Technology North Bangkok</h4>
+          <p>ระบบรับสมัครนักศึกษาออนไลน์ สมัครได้ทุกที่ ตรวจสอบสถานะได้ตลอดเวลา</p>
+        </div>
+        <div>
+          <h4>การสมัคร</h4>
+          <a href="rounds.html">รอบรับสมัคร</a>
+          <a href="faculties.html">หลักสูตรที่เปิดรับ</a>
+          <a href="schedule.html">ปฏิทินการรับสมัคร</a>
+          <a href="summary.html">สถานะการสมัคร</a>
+        </div>
+        <div>
+          <h4>ข่าวสาร</h4>
+          <a href="announcements.html">ประกาศทั้งหมด</a>
+          <a href="results.html">ตรวจสอบผลการคัดเลือก</a>
+          <a href="faq.html">คำถามที่พบบ่อย</a>
+        </div>
+        <div>
+          <h4>บัญชี</h4>
+          <a href="login.html">เข้าสู่ระบบ</a>
+          <a href="register.html">สร้างบัญชีผู้สมัคร</a>
+          <a href="profile.html">บัญชีของฉัน</a>
+          <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+        </div>
       </div>
-      <div>
-        <h4>บัญชี</h4>
-        <a href="login.html">เข้าสู่ระบบ</a>
-        <a href="register.html">สร้างบัญชีผู้สมัคร</a>
-        <a href="profile.html">บัญชีของฉัน</a>
-        <a href="contact.html">ติดต่อเจ้าหน้าที่</a>
+      <div class="footer-bottom">
+        ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok
       </div>
-    </div>
-    <div class="footer-bottom">ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น • King Mongkut's University of Technology North Bangkok</div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
