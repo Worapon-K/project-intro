@@ -85,8 +85,9 @@
             </table>
           </div>
           <div class="actions">
-            <a class="btn sm secondary" href="#">พิมพ์ใบสมัคร</a>
-            <a class="btn sm secondary" href="#">ดาวน์โหลดใบเสร็จ</a>
+            <button class="btn sm secondary" type="button" onclick="window.print()">พิมพ์ใบสมัคร</button>
+            <a class="btn sm secondary" href="files/application-sample.pdf" download="application-KMUTNB-2570-008421.pdf">ดาวน์โหลดใบสมัคร</a>
+            <a class="btn sm secondary" href="files/receipt-sample.pdf" download="receipt-KMUTNB-2570-008421.pdf">ดาวน์โหลดใบเสร็จ</a>
           </div>
         </div>
 
@@ -148,6 +149,94 @@
         <a class="btn secondary" href="results.html">ตรวจสอบผลการคัดเลือก</a>
         <a class="btn ghost" href="index.html">กลับหน้าหลัก</a>
       </div>
+
+      <section class="print-sheet">
+        <div class="ps-head">
+          <div class="ps-brand">
+            <img src="image/logo_kmutnb.png" alt="ตราสัญลักษณ์ KMUTNB">
+            <div>
+              <b>King Mongkut's University of Technology North Bangkok</b><br>
+              <span class="hint">ระบบรับสมัครนักศึกษาออนไลน์ • Admission System</span>
+            </div>
+          </div>
+          <div>
+            <h1>ใบสมัครเข้าศึกษา</h1>
+            <div class="hint" style="text-align:right">ปีการศึกษา 2570</div>
+          </div>
+        </div>
+
+        <dl class="kv">
+          <dt>เลขที่ใบสมัคร</dt>
+          <dd>KMUTNB-2570-008421</dd>
+          <dt>รอบที่สมัคร</dt>
+          <dd>โควตาเรียนดี</dd>
+          <dt>สถานะ</dt>
+          <dd>รอตรวจสอบคุณสมบัติ (ชำระค่าสมัครแล้ว 300 บาท)</dd>
+        </dl>
+
+        <h3>ข้อมูลส่วนบุคคล</h3>
+        <dl class="kv">
+          <dt>ชื่อ-นามสกุล</dt>
+          <dd>นายสมชาย ใจดี</dd>
+          <dt>วันเกิด</dt>
+          <dd>14 มีนาคม 2551</dd>
+          <dt>เลขบัตรประชาชน</dt>
+          <dd>1-xxxx-xxxxx-12-3</dd>
+          <dt>อีเมล</dt>
+          <dd>somchai@email.com</dd>
+          <dt>เบอร์โทรศัพท์</dt>
+          <dd>081-234-5678</dd>
+          <dt>ที่อยู่</dt>
+          <dd>99 หมู่ 4 ต.ศรีมหาโพธิ อ.ศรีมหาโพธิ จ.ปราจีนบุรี 25140</dd>
+        </dl>
+
+        <h3>ข้อมูลการศึกษา</h3>
+        <dl class="kv">
+          <dt>โรงเรียน</dt>
+          <dd>โรงเรียนศรีมหาโพธิ</dd>
+          <dt>แผนการเรียน</dt>
+          <dd>วิทย์-คณิต</dd>
+          <dt>GPAX</dt>
+          <dd>3.52</dd>
+          <dt>ปีที่จบการศึกษา</dt>
+          <dd>2570</dd>
+        </dl>
+
+        <h3>หลักสูตรที่เลือก</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ลำดับ</th>
+              <th>หลักสูตร</th>
+              <th>วิทยาเขต</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>วิศวกรรมคอมพิวเตอร์</td>
+              <td>กรุงเทพฯ</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>เทคโนโลยีสารสนเทศ</td>
+              <td>กรุงเทพฯ</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>วิศวกรรมอุตสาหการ</td>
+              <td>ปราจีนบุรี</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="sign">
+          <div>ลงชื่อผู้สมัคร</div>
+          <div>เจ้าหน้าที่ผู้รับสมัคร</div>
+        </div>
+
+        <div class="ps-foot">พิมพ์เมื่อ 13 ตุลาคม 2569 • ระบบต้นแบบสำหรับงานออกแบบ UI/UX เท่านั้น</div>
+      </section>
     </main>
 
     <footer class="footer">
